@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* Navbar */
+
+.nav-menu {
+    padding: 25px;
+}
+
+.fas {
+    color: coral;
+}
+
+.menu {
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: all .4s;
+    color: blanchedalmond;
+}
+
+.menu:hover {
+    color: sandybrown
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 23px;
+    height: 8px;
+    margin: 5px;
+    transition: all .5s;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+.heading {
+    color: whitesmoke;
+}
+
+
+/* End of navbar  */
+
+
+/* Header  */
+
+header {
+    height: 100vh;
+    background: url(/img/foto1.jpg) no-repeat center center/cover;
+    opacity: 10px;
+}
+
+
+/* End of Header */
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    widows: 80px;
+}
+
+.heading {
+    animation-name: slide;
+    animation-duration: 2s;
+}
+
+.main {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
