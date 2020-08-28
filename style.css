@@ -59,9 +59,6 @@ header {
     opacity: 10px;
 }
 
-
-/* End of Header */
-
 .banner {
     position: absolute;
     top: 50%;
@@ -92,3 +89,67 @@ header {
         opacity: 1;
     }
 }
+
+
+/* End of Header */
+
+
+/* About Us */
+
+#about {
+    background: black;
+    margin-top: 11px;
+    color: seashell;
+}
+
+.title-text {
+    font-size: 27px;
+}
+
+.about-images {
+    position: relative;
+}
+
+.about-img {
+    position: absolute;
+    width: 150px;
+    transition: all 2s ease;
+    opacity: 0.9;
+}
+
+.img-1 {
+    left: 0%;
+    top: 0%;
+}
+
+.img-2 {
+    left: 20%;
+    top: 20%;
+    z-index: 10;
+}
+
+.img-3 {
+    left: 40%;
+    top: 45%;
+    z-index: 20;
+}
+
+.img-4 {
+    left: 40%;
+    top: 0%;
+}
+
+.img-5 {
+    left: 0%;
+    top: 45%;
+}
+
+.btn {
+    color: tan !important;
+    font-weight: bold !important;
+    border: 2px solid #634832 !important;
+    font-size: 25px;
+}
+
+
+/* End of About Us */
