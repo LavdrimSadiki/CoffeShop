@@ -153,3 +153,64 @@ header {
 
 
 /* End of About Us */
+
+
+/* Product section */
+
+.content-4 {
+    justify-content: center;
+    margin: 5%;
+}
+
+.content-4.nav-tabs {
+    margin: 2px;
+    border: none;
+    border-bottom: 0px;
+    text-align: center;
+    cursor: pointer;
+    background: black
+}
+
+.content-4.tab-item {
+    text-decoration: none;
+    color: darkkhaki;
+}
+
+.content-4.tab-item {
+    display: block;
+    font-size: 45px;
+    padding: 6px 27px 0px 27px;
+}
+
+.content-4.tab-item.active {
+    color: rgb(8, 1, 1);
+}
+
+.tab-content {
+    margin-bottom: 5px;
+    transition: all .4s;
+    background-color: burlywood;
+}
+
+
+/* video */
+
+.like {
+    position: relative;
+    margin-top: 25px;
+}
+
+.video-container {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.bg-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
